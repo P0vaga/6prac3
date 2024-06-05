@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестування учнів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Запитання: що можна їсти?</h1>
+    <table border="1">
+        <tr>
+            <th>Перемикачі</th>
+            <th>Підказки</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="answer1" name="food" value="stone">
+            </td>
+            <td>Камінь</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="answer2" name="food" value="apple">
+            </td>
+            <td>Яблуко</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="answer3" name="food" value="shoe">
+            </td>
+            <td>Черевик</td>
+        </tr>
+    </table>
+    <button id="checkButton">Перевірка рішення</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
